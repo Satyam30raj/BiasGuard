@@ -799,8 +799,8 @@ section{
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* fix 3 per row */
   gap: 20px;
-  max-width: 1000px;  /* grid ki width limit */
-  margin: 0 auto;     /* centre align */
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .bento-grid .tile {
@@ -823,6 +823,7 @@ section{
   display: block;
 }
 /* footer css ends here */
+
 
 
 
