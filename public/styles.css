@@ -824,7 +824,45 @@ section{
   object-fit: cover;
   display: block;
 }
+
+
+/* === Light containers on dark theme === */
+
+/* Grid image boxes */
+.grid-container .box {
+    background-color: #f9f9f9;   /* light background */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Bento tiles */
+.bento-grid .tile {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* Pricing boxes */
+.price .box-container .box {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* Make text inside containers dark for readability */
+.grid-container .box h3,
+.grid-container .box p,
+.bento-grid .tile h3,
+.bento-grid .tile p,
+.price .box-container .box,
+.price .box-container .box ul li {
+    color: #222 !important;
+}
+
 /* footer css ends here */
+
 
 
 
