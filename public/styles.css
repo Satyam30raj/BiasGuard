@@ -809,7 +809,7 @@ section{
   background: #111827;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 6px 18px rgba(128, 128, 128, 0.2);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
@@ -825,6 +825,7 @@ section{
   display: block;
 }
 /* footer css ends here */
+
 
 
 
