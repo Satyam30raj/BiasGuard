@@ -857,7 +857,16 @@ section{
     color: var(--main-color);
 }
 
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  width: auto;   /* pehle 100% tha, ab auto */
+  margin: 0 auto; /* grid ko centre karne ke liye */
+}
 /* footer css ends here */
+
 
 
 
